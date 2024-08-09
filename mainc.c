@@ -27,7 +27,7 @@ int main()
     printf("Insíra um valor de c:");
     scanf("%f", &c);
 
-    if(delta(a, b, c)<0){
+    if(delta(a, b, c)<=0){
         printf("Não existem raizes para esta função");
     }else {
         function(a, b, c, &r1, &r2);
